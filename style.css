@@ -37,6 +37,56 @@ nav h1{
 .banner h1{
   font-size: 65px;
   font-weight: bold;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 30px;
+}
+.action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px 140px;
+}
+.action img{
+  border-radius: 50px;
+}
+
+.action h1{
+  font-size: 42px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.explore{
+  font-size: 24px;
+  color: rgb(180, 180, 180);
+  padding-bottom: 20px;
+}
+ section{
+  margin: 120px 140px;
+ }
+
+ .productive-user{
+  text-align: center;
+ }
+.productive-user h1{
+font-size: 38px ;
+padding-bottom: 30px;
+}
+.stat{
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+.stat h2{
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+.stat p{
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+}
+.productive-user .container{
+  padding:50px 200px;
+  background-color: #e6e6f7;
+  border-radius: 20px;
 }
