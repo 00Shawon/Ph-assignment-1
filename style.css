@@ -204,3 +204,23 @@ textarea{
   border: none;
 }
 
+footer{
+  text-align: center; 
+}
+footer h1{
+  font-size: 100px;
+ 
+  color: #4E47FF;
+}
+footer p{
+  font-size: 16px;
+  color: #8a8a8a;
+}
+
+footer a{
+  text-decoration: none;
+  color: #8a8a8a;
+  padding-left: 30px;
+}
+
+
