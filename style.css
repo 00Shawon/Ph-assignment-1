@@ -13,7 +13,7 @@ nav{
   display: flex;
   justify-content: space-between;
   padding: 50px 140px 120px;
-   /* margin: 50px 140px 120px; */
+ 
 }
 
 nav h1{
@@ -22,7 +22,7 @@ nav h1{
   color: #4E47FF;
 }
 
-.btn{
+button{
    font-size: 16px;
   font-weight: bold;
   background-color: #4E47FF;
@@ -30,6 +30,12 @@ nav h1{
   padding: 10px 20px;
   border-radius: 10px;
   display: inline;
+  border: none;
+}
+button:hover{
+  color: #4E47FF;
+  border: solid 2px #4E47FF;
+  background-color: transparent;
 }
 .banner{
   text-align: center;
@@ -40,11 +46,15 @@ nav h1{
   padding-top: 100px;
   padding-bottom: 30px;
 }
+
+main{
+  background-color: #f5f5fa;
+}
 .action{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 120px 140px;
+  padding: 120px 140px;
 }
 .action img{
   border-radius: 50px;
@@ -61,7 +71,8 @@ nav h1{
   padding-bottom: 20px;
 }
  section{
-  margin: 120px 140px;
+  padding: 0px 140px 120px;
+  
  }
 
  .productive-user{
@@ -90,3 +101,106 @@ padding-bottom: 30px;
   background-color: #e6e6f7;
   border-radius: 20px;
 }
+.users-response h1{
+  text-align: center;
+  font-size: 42px;
+  padding-bottom: 50px;
+
+}
+
+.stars{
+  padding-bottom: 20px;
+}
+
+h4{
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.response p{
+ font-size: 18px;
+
+}
+
+.reviewer{
+  display: flex;
+  gap: 20px;
+}
+
+.name h5{
+
+font-size: 16px;
+color: rgb(167, 164, 164);
+font-weight: bold;
+padding-bottom: 5px;
+}
+.name p{
+  font-size: 14px;
+color: rgb(201, 198, 198);
+}
+
+.reviewer img{
+  border-radius: 50%;
+}
+
+.users-response .response{
+  padding: 24px;
+  border: solid 2px rgb(235, 232, 232);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.users-response .container{
+  display: flex;
+  gap: 20px;
+}
+
+.focus-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: white;
+  border-radius: 20px;
+}
+.focus-container h1{
+font-size: 40px;
+}
+
+.focus-container p{
+color:rgb(165, 164, 164)
+}
+
+.focus-container img{
+ border-radius: 10px;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+.form-header h1{
+ font-size: 97px;
+ font-weight: bold;
+}
+input{
+  padding: 10px;
+  margin-bottom: 15px;
+ width: 450px;
+  background-color: white;
+  border-radius: 6px;
+  border: none;
+}
+textarea{
+   padding: 10px;
+  margin-bottom: 15px;
+ width: 450px;
+  background-color: white;
+  border-radius: 6px;
+  border: none;
+}
+
