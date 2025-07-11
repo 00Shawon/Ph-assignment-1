@@ -23,7 +23,7 @@ nav{
 
 nav h1{
   font-size: 34px;
-  font-weight: 600;
+  font-weight: 800;
   color: #4E47FF;
 }
 
@@ -101,9 +101,9 @@ padding-bottom: 30px;
   color: rgb(180, 180, 180);
   font-weight: bold;
 }
-.productive-user .container{
+.productive-user-container{
   padding:50px 200px;
-  background-color: #e6e6f7;
+  background-color: #d8d8f1;
   border-radius: 20px;
 }
 .users-response h1{
@@ -122,6 +122,9 @@ h4{
   font-weight: bold;
   padding-bottom: 20px;
 }
+.response:hover{
+  background-image: linear-gradient(#4E47FF, #d8d7f1, #4E47FF);
+}
 
 .response p{
  font-size: 18px;
@@ -136,7 +139,7 @@ h4{
 .name h5{
 
 font-size: 16px;
-color: rgb(167, 164, 164);
+color: rgb(223, 222, 233);
 font-weight: bold;
 padding-bottom: 5px;
 }
@@ -215,7 +218,7 @@ footer{
 }
 footer h1{
   font-size: 100px;
-  font-weight: bold;
+  font-weight: 900;
  
   color: #4E47FF;
 }
@@ -229,6 +232,10 @@ footer a{
   text-decoration: none;
   color: #8a8a8a;
   padding-left: 30px;
+}
+
+.btn-footer{
+  width: 450px;
 }
 
 
