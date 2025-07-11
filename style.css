@@ -91,6 +91,7 @@ padding-bottom: 30px;
   display: flex;
   gap: 200px;
   justify-content: center;
+  /* align-items: center; */
 }
 .stat h2{
   font-size: 80px;
@@ -101,10 +102,15 @@ padding-bottom: 30px;
   color: rgb(180, 180, 180);
   font-weight: bold;
 }
-.productive-user-container{
+.productive-user .container{
+  
   padding:50px 200px;
-  background-color: #d8d8f1;
+  background-color: #e6e6f7;
   border-radius: 20px;
+}
+.users-response .container{
+  display: flex;
+  justify-content: center;
 }
 .users-response h1{
   text-align: center;
