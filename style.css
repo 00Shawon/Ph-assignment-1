@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  
+  font-style: normal;
+}
 header{
   background-image: url(Assets/Hero-bg.png);
   height: 700px;
@@ -206,15 +211,18 @@ textarea{
 
 footer{
   text-align: center; 
+  padding: 120px 0px;
 }
 footer h1{
   font-size: 100px;
+  font-weight: bold;
  
   color: #4E47FF;
 }
 footer p{
   font-size: 16px;
   color: #8a8a8a;
+  padding: 20px;
 }
 
 footer a{
